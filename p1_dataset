@@ -1,3 +1,3 @@
 import pandas as pd
-train_lyric = pd.read_csv("p1_data/train.csv")
-train_lyric
+lyric_train= pd.read_csv("train.csv", quotechar='"')
+lyric_train
